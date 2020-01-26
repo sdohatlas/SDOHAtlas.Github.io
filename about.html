@@ -56,22 +56,19 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="explore.html">Explore</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </div>
   </div>
 </nav>
-  
-<div class="container">    
+<div class="container-fluid">    
 
-	<div class="row">
-		<h1> Study Overview </h1>
-		<br><br>
+
+	<div>
+	<h1> Study Overview </h1>
 	</div>
-
-	<div class="row">
-  	  <div class="col-4 well"> 
+<!-- 
+  	  <div class="col-md-4 well"> 
 
        <h4> Question </h4>
        <p class="text-muted">How do social determinants of health vary across multiple dimensions and geographic space?</p><br>
@@ -85,10 +82,11 @@
        <h5> Citation </h5>
        <p class="text-muted"> Kolak, Marynia, Bhatt, Jay, Park, Yoon Hong, Padron, Norma, and Molefe, Ayrin. "Quantification of Neighborhood-Level Social Determinants of Health in the Continental United States." <i> JAMA Network Open.</i> 2020;3(1):e1919928. doi:10.1001/jamanetworkopen.2019.19928 </i></p><br>
       </div>
+ -->
 
-
-	  <div class="col-8"> 
+	  <div class="col-lg-8"> 
 	  	<h2> Abstract </h2>
+	  	<hr>
 		<h5 class="text-primary"> IMPORTANCE </h5> 
 		An association between social and neighborhood characteristics and health outcomes has been reported but remains poorly understood owing to complex multidimensional factors that vary across geographic space.
 
@@ -109,38 +107,58 @@
 		The modeling of SDOH as multivariate indices rather than as a singular deprivation index may better capture the complexity and spatial heterogeneity underlying SDOH. During a time of increased attention to SDOH, this analysis may provide actionable information for key stakeholders with respect to the focus of interventions.
 		<br><br>
 		</div>
+
+	  <div class="col-lg-4"> 
+	  	<h2> Author Team </h2>
+	  	<hr>
+        <h4>Marynia Kolak, PhD, MFA, MS</h4> 
+        <p> Center for Spatial Data Science, UChicago <p>
+
+        <h4>Jay Bhatt, DO</h4> 
+        <p> Center for Health Innovation, AHA <p>
+
+        <h4>Yoon Hong Park, MPP</h4> 
+        <p> Center for Spatial Data Science, UChicago  <p>
+
+        <h4>Norma A. Padrón, PhD, MPH, MA</h4> 
+        <p> Center for Health Innovation, AHA <p>
+     
+        <h4>Ayrin Molefe, PhD</h4> 
+        <p> Center for Health Innovation, AHA <p><br> 
+
+         <img src="sds.jpg" width=300px alt=""> <br><br>
+         <img src="uoc.gif" width=300px alt=""> 
+
+	  </div>
+
+
+	</div>
+
+
+	<div class="alert alert-info">
+	<h1> Technical Details </h1>
+
+	<h3> This Site </h3> 
+	This atlas website was scrapped together by lead author Marynia Kolak with Carto and Bootstrap, with user testing support & expertise by Dante Kolak. As such, we appreciate your patience as the site continues to mature and grow over time with additional features and content. 
+
+	If you're interested in contributing, check out https://github.com/sdohatlas/SDOHAtlas.Github.io
+
+	<h3> Scripts & Data </h3> 
+	Scripts, raw data, and analytic results from the study will be made available mid-late 2020. GeoDa and R were used for all analysis. Please check back for details.
+
+	<h3> Questions </h3> 
+	Questions? Email: mkolak@uchicago.edu.
+
+
 	</div>
 </div>
 
 
-
-    <div class="row">
-      <h1> Study Author Team </h1>
-    </div>
-
-
-    <div class="row">
-      <div class="col-sm"> 
-        <h4>Marynia Kolak</h4> 
-        <p> University of Chicago <p>
-      </div>
-      <div class="col-sm"> 
-        <h4>Jay Bhatt</h4> 
-      </div>
-            <div class="col-sm"> 
-        <h4>Yoon Hong Park</h4> 
-      </div>
-            <div class="col-sm"> 
-        <h4>Norma A. Padrón</h4> 
-      </div>
-            <div class="col-sm"> 
-        <h4>Ayrin Molefe</h4> 
-      </div>
-    </div>
+</div>
 
 
 <footer class="container-fluid text-center">
-  <p>Brought to you by the Center for Spatial Data Science <a href="https://spatial.uchicago.edu" style="color: rgb(104,178,226)"> @UChicago</a> & the Center for Health Innovation <a href="https://www.aha.org/center" style="color: rgb(104,178,226)"> @American Hopsital Association</a></p>
+  <p>Brought to you by <a href="https://makosak.github.io/">MK</a> at the Center for Spatial Data Science <a href="https://spatial.uchicago.edu" style="color: rgb(104,178,226)"> @UChicago</a></p>
 </footer>
 
 </body>
